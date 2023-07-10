@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLGiangVienModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="class">
+    <Key>
+      <PropertyRef Name="Malop" />
+    </Key>
+    <Property Name="Malop" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Tenlop" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NienKhoa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="magv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="makhoa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="sinhviens" Relationship="Self.FK_sinhvien_class" FromRole="class" ToRole="sinhvien" />
+  </EntityType>
+  <EntityType Name="sinhvien">
+    <Key>
+      <PropertyRef Name="masv" />
+    </Key>
+    <Property Name="masv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="hoten" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="gender" Type="String" MaxLength="3" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="dob" Type="DateTime" Precision="3" />
+    <Property Name="sdt" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="malop" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="address" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="anhthe" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="class" Relationship="Self.FK_sinhvien_class" FromRole="sinhvien" ToRole="class" />
+  </EntityType>
+  <Association Name="FK_sinhvien_class">
+    <End Role="class" Type="Self.class" Multiplicity="0..1" />
+    <End Role="sinhvien" Type="Self.sinhvien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="class">
+        <PropertyRef Name="Malop" />
+      </Principal>
+      <Dependent Role="sinhvien">
+        <PropertyRef Name="malop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLGiangVienEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="lop" EntityType="Self.class" />
+    <EntitySet Name="sinhviens" EntityType="Self.sinhvien" />
+    <AssociationSet Name="FK_sinhvien_class" Association="Self.FK_sinhvien_class">
+      <End Role="class" EntitySet="lop" />
+      <End Role="sinhvien" EntitySet="sinhviens" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLGiangVienModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="class">
+    <Key>
+      <PropertyRef Name="Malop" />
+    </Key>
+    <Property Name="Malop" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Tenlop" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NienKhoa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="magv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="makhoa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="GV" Relationship="Self.FK_class_GV" FromRole="class" ToRole="GV" />
+    <NavigationProperty Name="Khoa" Relationship="Self.FK_class_Khoa" FromRole="class" ToRole="Khoa" />
+    <NavigationProperty Name="diemsvs" Relationship="Self.FK_diemsv_class" FromRole="class" ToRole="diemsv" />
+    <NavigationProperty Name="sinhviens" Relationship="Self.FK_sinhvien_class" FromRole="class" ToRole="sinhvien" />
+  </EntityType>
+  <EntityType Name="GV">
+    <Key>
+      <PropertyRef Name="magv" />
+    </Key>
+    <Property Name="magv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="hoten" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="sdt" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="ghichu" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="gioitinh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="hinhanh" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="classes" Relationship="Self.FK_class_GV" FromRole="GV" ToRole="class" />
+    <NavigationProperty Name="mondays" Relationship="Self.FK_monday_GV" FromRole="GV" ToRole="monday" />
+  </EntityType>
+  <EntityType Name="Khoa">
+    <Key>
+      <PropertyRef Name="maKhoa" />
+    </Key>
+    <Property Name="maKhoa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="tenKhoa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="classes" Relationship="Self.FK_class_Khoa" FromRole="Khoa" ToRole="class" />
+  </EntityType>
+  <EntityType Name="monday">
+    <Key>
+      <PropertyRef Name="mamon" />
+    </Key>
+    <Property Name="mamon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="magv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="tenmon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="trinhdo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="GV" Relationship="Self.FK_monday_GV" FromRole="monday" ToRole="GV" />
+    <NavigationProperty Name="diemsvs" Relationship="Self.FK_diemsv_monday" FromRole="monday" ToRole="diemsv" />
+  </EntityType>
+  <EntityType Name="sinhvien">
+    <Key>
+      <PropertyRef Name="masv" />
+    </Key>
+    <Property Name="masv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="hoten" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="gender" Type="String" MaxLength="3" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="dob" Type="DateTime" Precision="3" />
+    <Property Name="sdt" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="malop" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="address" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="anhthe" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="class" Relationship="Self.FK_sinhvien_class" FromRole="sinhvien" ToRole="class" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="diemsv">
+    <Key>
+      <PropertyRef Name="masv" />
+      <PropertyRef Name="tensv" />
+    </Key>
+    <Property Name="masv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="tensv" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="malop" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="mamon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="diemthi" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="diemquatrinh" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="diemtrungbinh" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="class" Relationship="Self.FK_diemsv_class" FromRole="diemsv" ToRole="class" />
+    <NavigationProperty Name="monday" Relationship="Self.FK_diemsv_monday" FromRole="diemsv" ToRole="monday" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="username" />
+      <PropertyRef Name="password" />
+    </Key>
+    <Property Name="username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="sdt" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <Association Name="FK_class_GV">
+    <End Role="GV" Type="Self.GV" Multiplicity="1" />
+    <End Role="class" Type="Self.class" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GV">
+        <PropertyRef Name="magv" />
+      </Principal>
+      <Dependent Role="class">
+        <PropertyRef Name="magv" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_class_Khoa">
+    <End Role="Khoa" Type="Self.Khoa" Multiplicity="1" />
+    <End Role="class" Type="Self.class" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Khoa">
+        <PropertyRef Name="maKhoa" />
+      </Principal>
+      <Dependent Role="class">
+        <PropertyRef Name="makhoa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_diemsv_class">
+    <End Role="class" Type="Self.class" Multiplicity="0..1" />
+    <End Role="diemsv" Type="Self.diemsv" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="class">
+        <PropertyRef Name="Malop" />
+      </Principal>
+      <Dependent Role="diemsv">
+        <PropertyRef Name="malop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_sinhvien_class">
+    <End Role="class" Type="Self.class" Multiplicity="0..1" />
+    <End Role="sinhvien" Type="Self.sinhvien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="class">
+        <PropertyRef Name="Malop" />
+      </Principal>
+      <Dependent Role="sinhvien">
+        <PropertyRef Name="malop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_monday_GV">
+    <End Role="GV" Type="Self.GV" Multiplicity="1" />
+    <End Role="monday" Type="Self.monday" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GV">
+        <PropertyRef Name="magv" />
+      </Principal>
+      <Dependent Role="monday">
+        <PropertyRef Name="magv" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_diemsv_monday">
+    <End Role="monday" Type="Self.monday" Multiplicity="0..1" />
+    <End Role="diemsv" Type="Self.diemsv" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="monday">
+        <PropertyRef Name="mamon" />
+      </Principal>
+      <Dependent Role="diemsv">
+        <PropertyRef Name="mamon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLGiangVienEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="classes" EntityType="Self.class" />
+    <EntitySet Name="GVs" EntityType="Self.GV" />
+    <EntitySet Name="Khoas" EntityType="Self.Khoa" />
+    <EntitySet Name="mondays" EntityType="Self.monday" />
+    <EntitySet Name="sinhviens" EntityType="Self.sinhvien" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <EntitySet Name="diemsvs" EntityType="Self.diemsv" />
+    <EntitySet Name="users" EntityType="Self.user" />
+    <AssociationSet Name="FK_class_GV" Association="Self.FK_class_GV">
+      <End Role="GV" EntitySet="GVs" />
+      <End Role="class" EntitySet="classes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_class_Khoa" Association="Self.FK_class_Khoa">
+      <End Role="Khoa" EntitySet="Khoas" />
+      <End Role="class" EntitySet="classes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_diemsv_class" Association="Self.FK_diemsv_class">
+      <End Role="class" EntitySet="classes" />
+      <End Role="diemsv" EntitySet="diemsvs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_sinhvien_class" Association="Self.FK_sinhvien_class">
+      <End Role="class" EntitySet="classes" />
+      <End Role="sinhvien" EntitySet="sinhviens" />
+    </AssociationSet>
+    <AssociationSet Name="FK_monday_GV" Association="Self.FK_monday_GV">
+      <End Role="GV" EntitySet="GVs" />
+      <End Role="monday" EntitySet="mondays" />
+    </AssociationSet>
+    <AssociationSet Name="FK_diemsv_monday" Association="Self.FK_diemsv_monday">
+      <End Role="monday" EntitySet="mondays" />
+      <End Role="diemsv" EntitySet="diemsvs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

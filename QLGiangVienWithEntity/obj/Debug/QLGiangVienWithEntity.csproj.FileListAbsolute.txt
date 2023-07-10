@@ -1,0 +1,111 @@
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\QLGiangVienWithEntity.exe.config
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\QLGiangVienWithEntity.exe
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\QLGiangVienWithEntity.pdb
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\EntityFramework.dll
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\EntityFramework.SqlServer.dll
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\EntityFramework.xml
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\EntityFramework.SqlServer.xml
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.csproj.AssemblyReference.cache
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.csproj.SuggestedBindingRedirects.cache
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.Properties.Resources.resources
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.csproj.GenerateResource.cache
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.csproj.CoreCompileInputs.cache
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.csproj.CopyComplete
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.exe
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.pdb
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.QLSV.resources
+D:\workspace\Nam3\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.csproj.AssemblyReference.cache
+D:\workspace\Nam3\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.csproj.SuggestedBindingRedirects.cache
+D:\workspace\Nam3\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.Client.resources
+D:\workspace\Nam3\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.main.resources
+D:\workspace\Nam3\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.QLSV.resources
+D:\workspace\Nam3\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.Properties.Resources.resources
+D:\workspace\Nam3\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.csproj.GenerateResource.cache
+D:\workspace\Nam3\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.csproj.CoreCompileInputs.cache
+D:\workspace\Nam3\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.exe
+D:\workspace\Nam3\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.pdb
+D:\workspace\Nam3\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\QLGiangVienWithEntity.exe.config
+D:\workspace\Nam3\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\QLGiangVienWithEntity.exe
+D:\workspace\Nam3\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\QLGiangVienWithEntity.pdb
+D:\workspace\Nam3\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\EntityFramework.dll
+D:\workspace\Nam3\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\EntityFramework.SqlServer.dll
+D:\workspace\Nam3\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\EntityFramework.xml
+D:\workspace\Nam3\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\EntityFramework.SqlServer.xml
+D:\workspace\Nam3\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.csproj.CopyComplete
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.Form1.resources
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmlop.resources
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmMonDay.resources
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmGV.resources
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmKhoa.resources
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmLogin.resources
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmRegister.resources
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.clDiemsv.resources
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.clSV.resources
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.clMain.resources
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmMain.resources
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.clLop.resources
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmhome.resources
+D:\workspace\Nam3\Cong_nghe_net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.clientUser.clHome.resources
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\QLGiangVienWithEntity.exe.config
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\QLGiangVienWithEntity.exe
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\QLGiangVienWithEntity.pdb
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\EntityFramework.dll
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\EntityFramework.xml
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.csproj.AssemblyReference.cache
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.csproj.SuggestedBindingRedirects.cache
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.clDiemsv.resources
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.clientUser.clHome.resources
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.clLop.resources
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.clMain.resources
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.clSV.resources
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmGV.resources
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmhome.resources
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmKhoa.resources
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmLogin.resources
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmlop.resources
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmMonDay.resources
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmRegister.resources
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.Form1.resources
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmMain.resources
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.QLSV.resources
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.Properties.Resources.resources
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.csproj.GenerateResource.cache
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.csproj.CoreCompileInputs.cache
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.csproj.CopyComplete
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.exe
+C:\Users\thang\Downloads\QLGiangVienWithEntity-20230516T111928Z-001\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.pdb
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.csproj.AssemblyReference.cache
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.csproj.SuggestedBindingRedirects.cache
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.clDiemsv.resources
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.clientUser.clHome.resources
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.clLop.resources
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.clMain.resources
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.clSV.resources
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmGV.resources
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmhome.resources
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmKhoa.resources
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmLogin.resources
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmlop.resources
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmMonDay.resources
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmRegister.resources
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.Form1.resources
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmMain.resources
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.QLSV.resources
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.Properties.Resources.resources
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.csproj.GenerateResource.cache
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.csproj.CoreCompileInputs.cache
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.exe
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.pdb
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\QLGiangVienWithEntity.exe.config
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\QLGiangVienWithEntity.exe
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\QLGiangVienWithEntity.pdb
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\EntityFramework.dll
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\EntityFramework.SqlServer.dll
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\EntityFramework.xml
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\bin\Debug\EntityFramework.SqlServer.xml
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.csproj.CopyComplete
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.clientUser.clFeedback.resources
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.clientUser.HandleFeedBack.resources
+D:\workspace\Nam3\Kiem tra\.net\QLGiangVienWithEntity\QLGiangVienWithEntity\obj\Debug\QLGiangVienWithEntity.frmFeedBack.resources

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLGiangVienModelStoreContainer" CdmEntityContainer="QLGiangVienEntities">
+    <EntitySetMapping Name="lop">
+      <EntityTypeMapping TypeName="QLGiangVienModel.class">
+        <MappingFragment StoreEntitySet="class">
+          <ScalarProperty Name="Malop" ColumnName="Malop" />
+          <ScalarProperty Name="Tenlop" ColumnName="Tenlop" />
+          <ScalarProperty Name="NienKhoa" ColumnName="NienKhoa" />
+          <ScalarProperty Name="magv" ColumnName="magv" />
+          <ScalarProperty Name="makhoa" ColumnName="makhoa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sinhviens">
+      <EntityTypeMapping TypeName="QLGiangVienModel.sinhvien">
+        <MappingFragment StoreEntitySet="sinhvien">
+          <ScalarProperty Name="masv" ColumnName="masv" />
+          <ScalarProperty Name="hoten" ColumnName="hoten" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="dob" ColumnName="dob" />
+          <ScalarProperty Name="sdt" ColumnName="sdt" />
+          <ScalarProperty Name="malop" ColumnName="malop" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="anhthe" ColumnName="anhthe" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

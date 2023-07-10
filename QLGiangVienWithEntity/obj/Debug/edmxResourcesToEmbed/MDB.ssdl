@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLGiangVienModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="diemsv">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="masv" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="mamon" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="diemthi" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="diemquatrinh" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="diemtrungbinh" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="trangthai" Type="nvarchar" MaxLength="4" />
+  </EntityType>
+  <EntityType Name="feedback">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Name="username" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="GV">
+    <Key>
+      <PropertyRef Name="magv" />
+    </Key>
+    <Property Name="magv" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="hoten" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="sdt" Type="nvarchar" MaxLength="11" />
+    <Property Name="ghichu" Type="nvarchar" MaxLength="255" />
+    <Property Name="gioitinh" Type="nvarchar" MaxLength="50" />
+    <Property Name="ngaysinh" Type="date" />
+    <Property Name="diachi" Type="nvarchar" MaxLength="50" />
+    <Property Name="hinhanh" Type="image" />
+  </EntityType>
+  <EntityType Name="Khoa">
+    <Key>
+      <PropertyRef Name="maKhoa" />
+    </Key>
+    <Property Name="maKhoa" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="tenKhoa" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="lop">
+    <Key>
+      <PropertyRef Name="Malop" />
+    </Key>
+    <Property Name="Malop" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Tenlop" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="NienKhoa" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="magv" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="makhoa" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="monday">
+    <Key>
+      <PropertyRef Name="mamon" />
+    </Key>
+    <Property Name="mamon" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="magv" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="tenmon" Type="nvarchar" MaxLength="50" />
+    <Property Name="trinhdo" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="sinhvien">
+    <Key>
+      <PropertyRef Name="masv" />
+    </Key>
+    <Property Name="masv" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="hoten" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="gender" Type="nvarchar" MaxLength="3" Nullable="false" />
+    <Property Name="dob" Type="datetime" />
+    <Property Name="sdt" Type="nvarchar" MaxLength="11" />
+    <Property Name="malop" Type="nvarchar" MaxLength="50" />
+    <Property Name="address" Type="nchar" MaxLength="10" />
+    <Property Name="anhthe" Type="image" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="username" />
+    </Key>
+    <Property Name="username" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="type" Type="nvarchar" MaxLength="1" />
+    <Property Name="email" Type="char" MaxLength="255" />
+  </EntityType>
+  <Association Name="FK_class_GV">
+    <End Role="GV" Type="Self.GV" Multiplicity="1" />
+    <End Role="lop" Type="Self.lop" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GV">
+        <PropertyRef Name="magv" />
+      </Principal>
+      <Dependent Role="lop">
+        <PropertyRef Name="magv" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_class_Khoa">
+    <End Role="Khoa" Type="Self.Khoa" Multiplicity="1" />
+    <End Role="lop" Type="Self.lop" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Khoa">
+        <PropertyRef Name="maKhoa" />
+      </Principal>
+      <Dependent Role="lop">
+        <PropertyRef Name="makhoa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_diemsv_monday">
+    <End Role="monday" Type="Self.monday" Multiplicity="1" />
+    <End Role="diemsv" Type="Self.diemsv" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="monday">
+        <PropertyRef Name="mamon" />
+      </Principal>
+      <Dependent Role="diemsv">
+        <PropertyRef Name="mamon" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_diemsv_sinhvien">
+    <End Role="sinhvien" Type="Self.sinhvien" Multiplicity="1" />
+    <End Role="diemsv" Type="Self.diemsv" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="sinhvien">
+        <PropertyRef Name="masv" />
+      </Principal>
+      <Dependent Role="diemsv">
+        <PropertyRef Name="masv" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_feedback_user">
+    <End Role="user" Type="Self.user" Multiplicity="1" />
+    <End Role="feedback" Type="Self.feedback" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="user">
+        <PropertyRef Name="username" />
+      </Principal>
+      <Dependent Role="feedback">
+        <PropertyRef Name="username" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_monday_GV1">
+    <End Role="GV" Type="Self.GV" Multiplicity="1" />
+    <End Role="monday" Type="Self.monday" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GV">
+        <PropertyRef Name="magv" />
+      </Principal>
+      <Dependent Role="monday">
+        <PropertyRef Name="magv" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_sinhvien_class">
+    <End Role="lop" Type="Self.lop" Multiplicity="0..1" />
+    <End Role="sinhvien" Type="Self.sinhvien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lop">
+        <PropertyRef Name="Malop" />
+      </Principal>
+      <Dependent Role="sinhvien">
+        <PropertyRef Name="malop" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLGiangVienModelStoreContainer">
+    <EntitySet Name="diemsv" EntityType="Self.diemsv" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="feedback" EntityType="Self.feedback" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="GV" EntityType="Self.GV" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Khoa" EntityType="Self.Khoa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="lop" EntityType="Self.lop" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="monday" EntityType="Self.monday" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sinhvien" EntityType="Self.sinhvien" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="user" EntityType="Self.user" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_class_GV" Association="Self.FK_class_GV">
+      <End Role="GV" EntitySet="GV" />
+      <End Role="lop" EntitySet="lop" />
+    </AssociationSet>
+    <AssociationSet Name="FK_class_Khoa" Association="Self.FK_class_Khoa">
+      <End Role="Khoa" EntitySet="Khoa" />
+      <End Role="lop" EntitySet="lop" />
+    </AssociationSet>
+    <AssociationSet Name="FK_diemsv_monday" Association="Self.FK_diemsv_monday">
+      <End Role="monday" EntitySet="monday" />
+      <End Role="diemsv" EntitySet="diemsv" />
+    </AssociationSet>
+    <AssociationSet Name="FK_diemsv_sinhvien" Association="Self.FK_diemsv_sinhvien">
+      <End Role="sinhvien" EntitySet="sinhvien" />
+      <End Role="diemsv" EntitySet="diemsv" />
+    </AssociationSet>
+    <AssociationSet Name="FK_feedback_user" Association="Self.FK_feedback_user">
+      <End Role="user" EntitySet="user" />
+      <End Role="feedback" EntitySet="feedback" />
+    </AssociationSet>
+    <AssociationSet Name="FK_monday_GV1" Association="Self.FK_monday_GV1">
+      <End Role="GV" EntitySet="GV" />
+      <End Role="monday" EntitySet="monday" />
+    </AssociationSet>
+    <AssociationSet Name="FK_sinhvien_class" Association="Self.FK_sinhvien_class">
+      <End Role="lop" EntitySet="lop" />
+      <End Role="sinhvien" EntitySet="sinhvien" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

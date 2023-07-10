@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GiangVienModelStoreContainer" CdmEntityContainer="GiangVienEntities">
+    <EntitySetMapping Name="lop">
+      <EntityTypeMapping TypeName="GiangVienModel.class">
+        <MappingFragment StoreEntitySet="class">
+          <ScalarProperty Name="makhoa" ColumnName="makhoa" />
+          <ScalarProperty Name="magv" ColumnName="magv" />
+          <ScalarProperty Name="NienKhoa" ColumnName="NienKhoa" />
+          <ScalarProperty Name="Tenlop" ColumnName="Tenlop" />
+          <ScalarProperty Name="Malop" ColumnName="Malop" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="diemsv">
+      <EntityTypeMapping TypeName="GiangVienModel.diemsv">
+        <MappingFragment StoreEntitySet="diemsv">
+          <ScalarProperty Name="diemtrungbinh" ColumnName="diemtrungbinh" />
+          <ScalarProperty Name="diemquatrinh" ColumnName="diemquatrinh" />
+          <ScalarProperty Name="diemthi" ColumnName="diemthi" />
+          <ScalarProperty Name="mamon" ColumnName="mamon" />
+          <ScalarProperty Name="masv" ColumnName="masv" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GV">
+      <EntityTypeMapping TypeName="GiangVienModel.GV">
+        <MappingFragment StoreEntitySet="GV">
+          <ScalarProperty Name="hinhanh" ColumnName="hinhanh" />
+          <ScalarProperty Name="diachi" ColumnName="diachi" />
+          <ScalarProperty Name="ngaysinh" ColumnName="ngaysinh" />
+          <ScalarProperty Name="gioitinh" ColumnName="gioitinh" />
+          <ScalarProperty Name="ghichu" ColumnName="ghichu" />
+          <ScalarProperty Name="sdt" ColumnName="sdt" />
+          <ScalarProperty Name="hoten" ColumnName="hoten" />
+          <ScalarProperty Name="magv" ColumnName="magv" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Khoa">
+      <EntityTypeMapping TypeName="GiangVienModel.Khoa">
+        <MappingFragment StoreEntitySet="Khoa">
+          <ScalarProperty Name="tenKhoa" ColumnName="tenKhoa" />
+          <ScalarProperty Name="maKhoa" ColumnName="maKhoa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="monday">
+      <EntityTypeMapping TypeName="GiangVienModel.monday">
+        <MappingFragment StoreEntitySet="monday">
+          <ScalarProperty Name="trinhdo" ColumnName="trinhdo" />
+          <ScalarProperty Name="tenmon" ColumnName="tenmon" />
+          <ScalarProperty Name="magv" ColumnName="magv" />
+          <ScalarProperty Name="mamon" ColumnName="mamon" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sinhvien">
+      <EntityTypeMapping TypeName="GiangVienModel.sinhvien">
+        <MappingFragment StoreEntitySet="sinhvien">
+          <ScalarProperty Name="anhthe" ColumnName="anhthe" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="malop" ColumnName="malop" />
+          <ScalarProperty Name="sdt" ColumnName="sdt" />
+          <ScalarProperty Name="dob" ColumnName="dob" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="hoten" ColumnName="hoten" />
+          <ScalarProperty Name="masv" ColumnName="masv" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="nguoidung">
+      <EntityTypeMapping TypeName="GiangVienModel.user">
+        <MappingFragment StoreEntitySet="user">
+          <ScalarProperty Name="sdt" ColumnName="sdt" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
