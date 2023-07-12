@@ -1,3 +1,5 @@
+# Đầu tiên là add entity in folder
+
 chỉ add cứng 1 cái duy nhất trong sql là user 
 tk mk tùy nhưng type là 0
 0 là admin người quản lý 
